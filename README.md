@@ -20,7 +20,7 @@ This extension allows you to quickly take a screenshot of the current tab and co
 
 # Key Features
 
-- Keyboard Shortcut: Shift+Cmd+I on Mac, Shift+Ctrl+I on Windows/Linux
+- Keyboard Shortcut: `Shift+Cmd+I` on Mac, `Shift+Ctrl+I` on Windows/Linux
 - Clipboard Integration: Automatically copies the screenshot as an image to your clipboard
 - Visual Feedback: Shows a notification when the screenshot is taken
 - Error Handling: Displays error messages if something goes wrong
