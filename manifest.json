@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Screenshot",
+  "version": "1.0",
+  "description": "Take screenshots with Shift+Cmd+I and copy to clipboard",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "default": "Shift+Ctrl+I",
+        "mac": "Shift+Command+I"
+      },
+      "description": "Take screenshot and copy to clipboard"
+    }
+  }
+}
